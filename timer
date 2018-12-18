@@ -7,7 +7,7 @@ print("Timer started at %s" % time.strftime("%X", start_time))
 
 #Wait for user input
 
-raw_input("Please press Enter to Continue...")
+raw_input("If you press Enter, the counter will stop...")
 
 stop_time = time.localtime()
 difference = time.mktime(stop_time) - time.mktime(start_time)
